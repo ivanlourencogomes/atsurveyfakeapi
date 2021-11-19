@@ -1,109 +1,112 @@
 {
-  "experiments": [
-    {
-      "id": 1,
-      "title": "Pos_teste_2telas_novo",
-      "sentencesOrder": "random",
-      "testingGroup": "Pos_teste",
-      "timeLimit": false,
-      "timeInSeconds": 0,
-      "showClock": false,
-      "answerOnSeparateScreen": true,
-      "personalDataForm": [
-         {
-           "label": "Idade",
-           "placeholder": "Digite sua idade (use números)",
-           "type": "number",
-           "required": true,
-           "page": 1,
-           "options": undefined 
-         },
-         {
-           "label": "Escolaridade",
-           "placeholder": "Ex. Mestrado, Doutorado, Nível Superior",
-           "type": "text",
-           "required": false,
-           "page": 1,
-           "options": undefined 
-         },
-         {
-           "label": "Qual foi o seu resultado no teste de nivelamento no início do estudo?",
-           "placeholder": undefined,
-           "type": "select",
-           "required": true,
-           "page": 2,
-           "options": ["A1", "A2", "B1", "B2", "C1","C2"]
-         }
-      ],
-      "stimulli": [
-        {
-          "sentence": "Pergunto-me periodicamente se estou atingindo as minhas metas.",
-          "item": "Exp",
-          "itemId": "1",
-          "condition": "Comp_Mon",
-          "conditionCode": "Comp_Mon_1",
-          "trial": "1"
-        },
-        {
-          "sentence": "Antes de resolver um problema analiso várias alternativas.",
-          "item": "Exp",
-          "itemId": "2",
-          "condition": "Comp_Mon",
-          "conditionCode": "Comp_Mon_2",
-          "trial": "2"
-        },
-        {
-          "sentence": "Tento usar estratégias que funcionaram no passado.",
-          "item": "Exp",
-          "itemId": "3",
-          "condition": "Proc_Know",
-          "conditionCode": "Proc_Know_3",
-          "trial": "3"
-        }
-      ],
-      "foreword": [
-        {
-          "page": 1,
-          "text": "testing the <b>foreword</b>: page 1",
-          "button": {
-            "label": "Next"
-          }
-        },
-        {
-          "page": 2,
-          "text": "testing the <b>foreword</b>: page 2",
-          "button": {
-            "label": "Next"
-          }
-        }
-      ],
-      "instructions": [
-        {
-          "page": 1,
-          "text": "testing the <b>instructions</b>: page 1",
-          "button": {
-            "label": "Next"
-          }
-        },
-        {
-          "page": 2,
-          "text": "testing the <b>instructions</b>: page 2",
-          "button": {
-            "label": "Start experiment"
-          }
-        }
-      ],
-      "endText": [
-        {
-          "page": 1,
-          "text": "testing the <b>end text</b>: page 1",
-          "button": undefined
-        }
-        
-      ]
-      
-    },
-    
-  ],
-  
+   "experiments":[
+      {
+         "id":1,
+         "title":"Pos_teste_2telas_novo",
+         "sentencesOrder":"random",
+         "testingGroup":"Pos_teste",
+         "timeLimit":false,
+         "timeInSeconds":0,
+         "showClock":false,
+         "answerOnSeparateScreen":true,
+         "personalDataForm":[
+            {
+               "label":"Idade",
+               "placeholder":"Digite sua idade (use números)",
+               "type":"number",
+               "required":true,
+               "page":1,
+               "options":"undefined"
+            },
+            {
+               "label":"Escolaridade",
+               "placeholder":"Ex. Mestrado, Doutorado, Nível Superior",
+               "type":"text",
+               "required":false,
+               "page":1,
+               "options":"undefined"
+            },
+            {
+               "label":"Qual foi o seu resultado no teste de nivelamento no início do estudo?",
+               "placeholder":"undefined",
+               "type":"select",
+               "required":true,
+               "page":2,
+               "options":[
+                  "A1",
+                  "A2",
+                  "B1",
+                  "B2",
+                  "C1",
+                  "C2"
+               ]
+            }
+         ],
+         "stimulli":[
+            {
+               "sentence":"Pergunto-me periodicamente se estou atingindo as minhas metas.",
+               "item":"Exp",
+               "itemId":"1",
+               "condition":"Comp_Mon",
+               "conditionCode":"Comp_Mon_1",
+               "trial":"1"
+            },
+            {
+               "sentence":"Antes de resolver um problema analiso várias alternativas.",
+               "item":"Exp",
+               "itemId":"2",
+               "condition":"Comp_Mon",
+               "conditionCode":"Comp_Mon_2",
+               "trial":"2"
+            },
+            {
+               "sentence":"Tento usar estratégias que funcionaram no passado.",
+               "item":"Exp",
+               "itemId":"3",
+               "condition":"Proc_Know",
+               "conditionCode":"Proc_Know_3",
+               "trial":"3"
+            }
+         ],
+         "foreword":[
+            {
+               "page":1,
+               "text":"testing the <b>foreword</b>: page 1",
+               "button":{
+                  "label":"Next"
+               }
+            },
+            {
+               "page":2,
+               "text":"testing the <b>foreword</b>: page 2",
+               "button":{
+                  "label":"Next"
+               }
+            }
+         ],
+         "instructions":[
+            {
+               "page":1,
+               "text":"testing the <b>instructions</b>: page 1",
+               "button":{
+                  "label":"Next"
+               }
+            },
+            {
+               "page":2,
+               "text":"testing the <b>instructions</b>: page 2",
+               "button":{
+                  "label":"Start experiment"
+               }
+            }
+         ],
+         "endText":[
+            {
+               "page":1,
+               "text":"testing the <b>end text</b>: page 1",
+               "button":"undefined"
+            }
+         ]
+      }
+   ]
 }
