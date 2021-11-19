@@ -8,11 +8,11 @@
       "timeLimit": false,
       "timeInSeconds": 0,
       "showClock": false,
-      "answerOnSeparateScreen": true
+      "answerOnSeparateScreen": true,
       "personalDataForm": [
          {
            "label": "Idade",
-           "placeholder": "Digite sua idade (use números)"
+           "placeholder": "Digite sua idade (use números)",
            "type": "number",
            "required": true,
            "page": 1,
@@ -20,7 +20,7 @@
          },
          {
            "label": "Escolaridade",
-           "placeholder": "Ex. Mestrado, Doutorado, Nível Superior"
+           "placeholder": "Ex. Mestrado, Doutorado, Nível Superior",
            "type": "text",
            "required": false,
            "page": 1,
@@ -28,7 +28,7 @@
          },
          {
            "label": "Qual foi o seu resultado no teste de nivelamento no início do estudo?",
-           "placeholder": undefined
+           "placeholder": undefined,
            "type": "select",
            "required": true,
            "page": 2,
@@ -63,14 +63,14 @@
       ],
       "foreword": [
         {
-          "page": 1
+          "page": 1,
           "text": "testing the <b>foreword</b>: page 1",
           "button": {
             "label": "Next"
           }
         },
         {
-          "page": 2
+          "page": 2,
           "text": "testing the <b>foreword</b>: page 2",
           "button": {
             "label": "Next"
@@ -79,14 +79,14 @@
       ],
       "instructions": [
         {
-          "page": 1
+          "page": 1,
           "text": "testing the <b>instructions</b>: page 1",
           "button": {
             "label": "Next"
           }
         },
         {
-          "page": 2
+          "page": 2,
           "text": "testing the <b>instructions</b>: page 2",
           "button": {
             "label": "Start experiment"
@@ -95,7 +95,7 @@
       ],
       "endText": [
         {
-          "page": 1
+          "page": 1,
           "text": "testing the <b>end text</b>: page 1",
           "button": undefined
         }
