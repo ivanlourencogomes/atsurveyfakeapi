@@ -40,6 +40,38 @@
                   "C1",
                   "C2"
                ]
+            },
+            {
+               "label":"Selecione uma das opções radio",
+               "placeholder":"undefined",
+               "type":"radio",
+               "required":false,
+               "page":3,
+               "options":[
+                  "Option 1",
+                  "Option 2",
+                  "Option 3"
+               ]
+            },
+            {
+               "label":"Selecione uma das opções checkbox",
+               "placeholder":"undefined",
+               "type":"checkbox",
+               "required":true,
+               "page":3,
+               "options":[
+                  "Option 1",
+                  "Option 2",
+                  "Option 3"
+               ]
+            },
+            {
+               "label":"Fale sobre você",
+               "placeholder":"Ex. Sua motivação para participar deste pesquisa, etc.",
+               "type":"textarea",
+               "required":false,
+               "page":3,
+               "options":"undefined"
             }
          ],
          "stimulli":[
